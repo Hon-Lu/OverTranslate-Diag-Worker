@@ -1,7 +1,7 @@
 # OverTranslate-Diag-Worker
 
 The endpoint behind the **Export and upload diagnostics** button in
-[OverTranslate](https://github.com/asd880921/OverTranslate).
+[OverTranslate](https://github.com/Hon-Lu/OverTranslate).
 
 It is a Cloudflare Worker in front of a Workers KV namespace, and it does one thing: accept a
 diagnostic zip, store it under an unguessable name, and return a short code. The user quotes that
